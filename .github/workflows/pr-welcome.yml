@@ -11,6 +11,7 @@ jobs:
     uses: kubev2v/migration-planner-workflows/.github/workflows/pr-welcome.yml@main
     with:
       skip-authors: '["red-hat-konflux[bot]","dependabot[bot]","migration-planner-sync[bot]"]'
+      jira-ticket-prefix: 'MTV'
     permissions:
       pull-requests: write
       issues: write
